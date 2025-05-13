@@ -47,4 +47,4 @@ for i, part in enumerate(partitions):
 
 # 6. Tổng hợp kết quả
 mean_acc = np.mean(accuracies)
-print("\n🎯 Trung bình độ chính xác qua các partition:", round(mean_acc, 4))
+print("Trung bình độ chính xác qua các partition:", round(mean_acc, 4))
